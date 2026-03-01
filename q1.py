@@ -6,7 +6,7 @@ def visibility_hpr(points, viewpoint, alpha):
     """
     HPR (Hidden Point Removal) 算法实现
     """
-    # 1. 以视点为原点进行平移
+
     p_centered = points - viewpoint
     
     # 2. 计算反演半径 R_max
